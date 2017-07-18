@@ -20,6 +20,7 @@ namespace WebApplication1.Controllers
 
         public AccountController()
         {
+            int x = 0;
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
